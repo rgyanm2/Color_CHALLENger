@@ -8,181 +8,18 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="141dp"
-        android:layout_height="157dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="270dp"
-        android:layout_marginRight="270dp"
-        android:layout_marginBottom="270dp"
+        android:id="@+id/imageView23"
+        android:layout_width="202dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_green_dark" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="143dp"
-        android:layout_height="156dp"
-        android:layout_marginStart="269dp"
-        android:layout_marginLeft="269dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginBottom="271dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_purple" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="150dp"
-        android:layout_height="114dp"
-        android:layout_marginStart="134dp"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="617dp"
-        android:layout_marginEnd="129dp"
-        android:layout_marginRight="129dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_purple" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="143dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="458dp"
-        android:layout_marginEnd="268dp"
-        android:layout_marginRight="268dp"
-        android:layout_marginBottom="117dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:color/holo_purple" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="148dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="122dp"
-        android:layout_marginLeft="122dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="141dp"
-        android:layout_marginRight="141dp"
-        android:layout_marginBottom="267dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_blue_light" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="150dp"
-        android:layout_height="129dp"
-        android:layout_marginTop="615dp"
-        android:layout_marginEnd="278dp"
-        android:layout_marginRight="278dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:color/holo_blue_light" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="148dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="274dp"
-        android:layout_marginLeft="274dp"
-        android:layout_marginTop="460dp"
-        android:layout_marginBottom="111dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_blue_light" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="142dp"
-        android:layout_height="159dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginLeft="132dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginRight="137dp"
-        android:layout_marginBottom="426dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_green_dark" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="149dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="274dp"
-        android:layout_marginLeft="274dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginBottom="427dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_blue_light" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="135dp"
-        android:layout_height="158dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginEnd="276dp"
-        android:layout_marginRight="276dp"
-        android:layout_marginBottom="427dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_purple" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="142dp"
-        android:layout_height="121dp"
-        android:layout_marginStart="280dp"
-        android:layout_marginLeft="280dp"
-        android:layout_marginTop="612dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_green_dark" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="139dp"
-        android:layout_height="164dp"
-        android:layout_marginStart="139dp"
-        android:layout_marginLeft="139dp"
-        android:layout_marginTop="458dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginRight="133dp"
-        android:layout_marginBottom="109dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_green_dark" />
+        app:srcCompat="@android:color/holo_orange_light" />
 
     <Button
         android:id="@+id/button"
@@ -190,57 +27,40 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
         android:layout_marginLeft="149dp"
-        android:layout_marginTop="338dp"
+        android:layout_marginTop="429dp"
         android:layout_marginEnd="174dp"
         android:layout_marginRight="174dp"
-        android:layout_marginBottom="345dp"
+        android:layout_marginBottom="254dp"
         android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginEnd="173dp"
-        android:layout_marginRight="173dp"
-        android:layout_marginBottom="273dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginBottom="76dp"
         android:text="Rules"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="396dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="192dp"
-        android:layout_marginBottom="438dp"
-        android:text="Color CHALLENger"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="148dp"
-        android:layout_height="161dp"
-        android:layout_marginEnd="263dp"
-        android:layout_marginRight="263dp"
-        android:layout_marginBottom="571dp"
+        android:id="@+id/imageView19"
+        android:layout_width="215dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginRight="196dp"
+        android:layout_marginBottom="389dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -248,31 +68,46 @@
         app:srcCompat="@android:color/holo_blue_light" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="142dp"
-        android:layout_height="159dp"
-        android:layout_marginStart="270dp"
-        android:layout_marginLeft="270dp"
-        android:layout_marginBottom="572dp"
+        android:id="@+id/imageView20"
+        android:layout_width="200dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginBottom="390dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_green_dark" />
+        app:srcCompat="@android:color/holo_red_light" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="135dp"
-        android:layout_height="158dp"
-        android:layout_marginStart="139dp"
-        android:layout_marginLeft="139dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginRight="137dp"
-        android:layout_marginBottom="573dp"
+        android:id="@+id/imageView22"
+        android:layout_width="212dp"
+        android:layout_height="397dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="340dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:color/holo_purple" />
+        app:srcCompat="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="393dp"
+        android:text="Color CHALLENger"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
