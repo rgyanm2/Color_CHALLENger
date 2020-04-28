@@ -83,7 +83,7 @@
         android:layout_marginEnd="270dp"
         android:layout_marginRight="270dp"
         android:layout_marginBottom="621dp"
-        android:text="Level 5"
+        android:text="level 5"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
