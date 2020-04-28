@@ -6,8 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="90dp"
+        android:text="Next Level"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="232dp"
@@ -24,24 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView32"
-        android:layout_width="114dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="270dp"
-        android:layout_marginRight="270dp"
-        android:layout_marginBottom="621dp"
-        android:text="Level 5"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="232dp"
@@ -58,7 +57,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
@@ -75,7 +74,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/textView29"
+        android:layout_width="114dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="621dp"
+        android:text="Level 5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
         android:layout_width="71dp"
         android:layout_height="44dp"
         android:layout_marginStart="328dp"
@@ -91,46 +107,46 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="142dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="276dp"
+        android:id="@+id/imageButton20"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="404dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorPrimary" />
+        app:srcCompat="#99D400" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="142dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginLeft="204dp"
-        android:layout_marginTop="276dp"
+        android:id="@+id/imageButton19"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="268dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorPrimary" />
+        app:srcCompat="#99CC00" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="142dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginLeft="204dp"
-        android:layout_marginTop="412dp"
+        android:id="@+id/imageButton18"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="268dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorPrimary" />
+        app:srcCompat="@android:color/holo_green_light" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="142dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="412dp"
+        android:id="@+id/imageButton17"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="404dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="#309386" />
+        app:srcCompat="@android:color/holo_green_light" />
 </androidx.constraintlayout.widget.ConstraintLayout>

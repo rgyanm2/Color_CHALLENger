@@ -9,22 +9,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Level1 extends AppCompatActivity {
+public class Level2 extends AppCompatActivity {
     public int counter;
     TextView textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level1);
-        Button levelTwo = findViewById(R.id.button4);
-        levelTwo.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Level1.this, Level2.class));
-            }
-        }));
-        textView = findViewById(R.id.textView5);
+        setContentView(R.layout.activity_level2);
+        textView = findViewById(R.id.textView25);
         new CountDownTimer(20000, 1000) {
 
             public void onTick(long millisUntilFinished) {
@@ -35,5 +29,12 @@ public class Level1 extends AppCompatActivity {
                 textView.setText("0");
             }
         }.start();
+        Button levelThree = findViewById(R.id.button8);
+        levelThree.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Level2.this, Level3.class));
+            }
+        }));
     }
 }
