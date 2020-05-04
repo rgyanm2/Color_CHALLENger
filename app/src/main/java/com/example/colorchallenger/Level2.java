@@ -19,7 +19,7 @@ public class Level2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2);
         textView = findViewById(R.id.textView15);
-        new CountDownTimer(20000, 1000) {
+        new CountDownTimer(15000, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 textView.setText(String.valueOf(20 - counter));
